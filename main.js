@@ -1,1 +1,10 @@
-const product = 'Socks'
+'use strict';
+
+const app = Vue.createApp({
+  data() {
+    return {
+      product: 'Socks',
+      description: 'This is a product',
+    }
+  },
+});
